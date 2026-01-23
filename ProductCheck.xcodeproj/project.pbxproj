@@ -14,6 +14,7 @@
 		1A5F93EC2F22F3770086FFAC /* ProductCheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5F93EB2F22F3770086FFAC /* ProductCheckTests.swift */; };
 		1A5F93F62F22F3770086FFAC /* ProductCheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5F93F52F22F3770086FFAC /* ProductCheckUITests.swift */; };
 		1A5F93F82F22F3770086FFAC /* ProductCheckUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5F93F72F22F3770086FFAC /* ProductCheckUITestsLaunchTests.swift */; };
+		1A5F94052F22FD4F0086FFAC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5F94042F22FD4F0086FFAC /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		1A5F93F12F22F3770086FFAC /* ProductCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProductCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A5F93F52F22F3770086FFAC /* ProductCheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCheckUITests.swift; sourceTree = "<group>"; };
 		1A5F93F72F22F3770086FFAC /* ProductCheckUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCheckUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1A5F94042F22FD4F0086FFAC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				1A5F93DC2F22F36E0086FFAC /* ContentView.swift */,
 				1A5F93DE2F22F3770086FFAC /* Assets.xcassets */,
 				1A5F93E02F22F3770086FFAC /* Preview Content */,
+				1A5F94042F22FD4F0086FFAC /* HomeView.swift */,
 			);
 			path = ProductCheck;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A5F94052F22FD4F0086FFAC /* HomeView.swift in Sources */,
 				1A5F93DD2F22F36E0086FFAC /* ContentView.swift in Sources */,
 				1A5F93DB2F22F36E0086FFAC /* ProductCheckApp.swift in Sources */,
 			);
