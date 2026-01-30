@@ -15,9 +15,7 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Product Check")
             Text("Try Change")
-            Button("Submit New!"){
-                
-            }
+           
         }
             .padding()
     }
