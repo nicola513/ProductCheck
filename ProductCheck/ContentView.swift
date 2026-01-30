@@ -14,6 +14,9 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Product Check")
+            Button("Submit New!"){
+                
+            }
         }
             .padding()
     }
