@@ -14,6 +14,7 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Product Check")
+            Text("Try Change")
             Button("Submit New!"){
                 
             }
