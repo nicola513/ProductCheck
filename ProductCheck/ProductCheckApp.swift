@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct ProductCheckApp: App {
+    //Get Login statue
+    @StateObject private var authState = AuthState()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if(!authState.isLogin){
+                LoginView(authState: authState)
+            }else{
+                ContentView()
+            }
+            
         }
     }
 }

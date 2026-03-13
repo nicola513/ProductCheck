@@ -7,22 +7,24 @@
 
 import SwiftUI
 
+
+
 struct ContentView: View {
-    var body: some View {
-        VStack{
-            Image(systemName: "heart.fill")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Product Check")
-            Text("Try Change")
-           
-        }
-            .padding()
+     
+    var body: some View{
+        Text("Hello, this is home page.")
+        Text("Second")
+        Text("Finial")
     }
+        
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+        }
     }
 }
+
+
